@@ -154,15 +154,25 @@ operation::tags-create-example[snippets='request-fields,curl-request,http-respon
 
 
 [[resources-note]]
-== Books
+== Note
 
-Books Resources
+The Note resource is used to retrieve, update, and delete individual notes
 
-[[resources-books-get-a-book]]
-=== Getting a book
+
+
+[[resources-note-links]]
+=== Links
+
+include::{snippets}/note-get-example/links.adoc[]
+
+
+
+[[resources-note-retrieve]]
+=== Retrieve a note
+
 A `GET` request will retrieve the details of a note
 
-operation::get-a-book[snippets='response-fields,curl-request,http-response']
+operation::note-get-example[snippets='response-fields,curl-request,http-response']
 
 
 
